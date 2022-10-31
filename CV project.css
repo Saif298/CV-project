@@ -1,0 +1,87 @@
+*{
+    margin:0;padding: 0;
+}
+body{
+    background-color:rgb(211, 210, 210);
+    font-family:serif;
+}
+.container{
+    max-width:1000px;
+    background-color:#cbdaec;
+    margin: auto;
+    padding: 20px;;
+}
+img{
+    width:100px; height:120px;
+    border:2px solid rgb(227, 240, 248);
+    border-radius:50%;   
+    float: left;
+}
+.head-bio{
+    float: left;
+    padding:30px;;
+}
+.head-contact{
+    float:right;
+    margin:30px;
+    font-family:cursive;
+}
+h1,h2,h3,h4,h5,h6{
+    color:rgb(66, 145, 209)
+}
+.head-contact a{
+    text-decoration:none;
+    color:teal;
+    font-weight:bold;
+}
+.head-contact a:hover{
+    color:tomato;
+    text-decoration:underline;
+}
+.clr{
+    clear: both;
+}
+
+#hr{
+    clear: both;
+    border:2px solid teal;
+}
+hr{
+    clear: both;
+    border:1px solid teal;
+    margin:10px 0px;
+}
+.personal-sec{
+    margin:10px 0px;
+}
+.dv1{
+    width:30%;
+    float:left;
+    
+}
+.dv2{
+    width:70%;
+    float:left; 
+}
+.edu-temp-left{
+    width:45%;
+    float: left;
+}
+.edu-temp-right{
+    width:45%;
+    float:right;
+}
+footer{
+    background-color:rgb(175, 214, 236);
+    text-align:center;
+    padding:20px;
+}
+footer a{
+    text-decoration:none;
+    color:white;
+    margin:20px;
+}
+footer p{
+    color: white;
+    margin-top: 20px;;
+}
